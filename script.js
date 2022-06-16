@@ -44,7 +44,7 @@ function fill_in_answers(answers) {
 	answer_3.innerText = answers['answer_3'];
 	answer_1.innerText = answers['answer_1'];
 	home.innerHTML = answers.mash;  // Change the content of the element in the HTML doc with the id "home" to the "mash" value in answers 
-	answer_2.innerHTML = answers.answer_4;// Change the content of the element in the HTML doc with the id "career" to the "career" value in answers 
+	answer_4.innerHTML = answers.answer_4;// Change the content of the element in the HTML doc with the id "career" to the "career" value in answers 
 	answer_2.innerHTML = answers.answer_2; 
 	answer_3.innerHTML = answers.answer_3;
 	answer_1.innerHTML = answers.answer_1;
